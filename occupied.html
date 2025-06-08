@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Property Status</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+   <link rel="stylesheet" href="style.css" />
+
+   <style>
+      .occupied-banner {
+         background-color: #ff4d4d;
+         color: white;
+         padding: 20px;
+         text-align: center;
+         font-size: 1.8rem;
+         font-weight: bold;
+         margin: 40px auto 20px;
+         border-radius: 8px;
+         max-width: 600px;
+      }
+
+      .back-btn {
+         display: block;
+         margin: 20px auto;
+         padding: 12px 25px;
+         background-color: #333;
+         color: white;
+         text-decoration: none;
+         border-radius: 5px;
+         width: fit-content;
+         text-align: center;
+         font-weight: bold;
+      }
+
+      .back-btn:hover {
+         background-color: #555;
+      }
+   </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+   <nav class="navbar nav-1">
+      <section class="flex">
+         <a href="#home"><img src="logo.png" alt="Logo" /></a>
+      </section>
+   </nav>
+
+   <nav class="navbar nav-2">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div class="menu">
+            <ul>
+               <li><a href="#">Rent<i class="fas fa-angle-down"></i></a>
+                  <ul><li><a href="index.html">Find listings</a></li></ul>
+               </li>
+               <li><a href="#">Sell</a></li>
+               <li><a href="#">Help<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="about.html">About us</a></li>
+                     <li><a href="contact.html">Contact us</a></li>
+                     <li><a href="contact.html#faq">FAQ</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      </section>
+   </nav>
+</header>
+
+<!-- Occupied Message -->
+<section class="view-property">
+   <div class="details">
+      <div class="occupied-banner">
+         🔒 This Property is Fully Occupied
+      </div>
+      <a href="index.html" class="back-btn">← Back to Listings</a>
+   </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+   <section class="flex">
+      <div class="box">
+         <a href="tel:0684423555"><i class="fas fa-phone"></i><span>068 442 3555</span></a>
+         <a href="mailto:ntamnnaniabonga999@gmail.com"><i class="fas fa-envelope"></i><span>ntamnaniabonga999@gmail.com</span></a>
+         <a href="#"><i class="fas fa-map-marker-alt"></i><span>Gqeberha, South Africa - 6001</span></a>
+      </div>
+
+      <div class="box">
+         <a href="#"><span>Facebook</span><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><span>WhatsApp</span><i class="fab fa-whatsapp"></i></a>
+      </div>
+   </section>
+
+   <div class="credit">
+      &copy; 2022 by <span>Givenqaun</span> | All rights reserved!
+   </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
